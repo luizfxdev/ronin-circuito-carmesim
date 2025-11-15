@@ -1,0 +1,55 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.ronin:challenge >-------------------------
+[INFO] Building Ronin Challenge 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ challenge ---
+[INFO] Deleting /mnt/d/FELIPE/Ícones/Felipe/CURSOS/OneBitCode/Aulas e Exercícios/Desafios OnebitCode/ronin-circuito-carmesim/backend/target
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ challenge >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ challenge ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ challenge ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 7 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ challenge ---
+[INFO] skip non existing resourceDirectory /mnt/d/FELIPE/Ícones/Felipe/CURSOS/OneBitCode/Aulas e Exercícios/Desafios OnebitCode/ronin-circuito-carmesim/backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ challenge ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.0:run (default-cli) < test-compile @ challenge <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.0:run (default-cli) @ challenge ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-11-14T22:02:50.989-03:00  INFO 2184 --- [  restartedMain] c.ronin.challenge.ChallengeApplication   : Starting ChallengeApplication using Java 17.0.9 with PID 2184 (/mnt/d/FELIPE/Ícones/Felipe/CURSOS/OneBitCode/Aulas e Exercícios/Desafios OnebitCode/ronin-circuito-carmesim/backend/target/classes started by root in /mnt/d/FELIPE/Ícones/Felipe/CURSOS/OneBitCode/Aulas e Exercícios/Desafios OnebitCode/ronin-circuito-carmesim/backend)
+2025-11-14T22:02:50.995-03:00  INFO 2184 --- [  restartedMain] c.ronin.challenge.ChallengeApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-14T22:02:51.154-03:00  INFO 2184 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-14T22:02:51.155-03:00  INFO 2184 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-14T22:02:55.530-03:00  INFO 2184 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-14T22:02:55.571-03:00  INFO 2184 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-14T22:02:55.572-03:00  INFO 2184 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-14T22:02:55.722-03:00  INFO 2184 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-14T22:02:55.724-03:00  INFO 2184 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4566 ms
+2025-11-14T22:02:57.646-03:00  INFO 2184 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-14T22:02:57.717-03:00  INFO 2184 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-11-14T22:02:57.730-03:00  INFO 2184 --- [  restartedMain] c.ronin.challenge.ChallengeApplication   : Started ChallengeApplication in 8.652 seconds (process running for 10.063)
+2025-11-14T22:04:13.065-03:00  INFO 2184 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-14T22:04:13.066-03:00  INFO 2184 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-14T22:04:13.068-03:00  INFO 2184 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

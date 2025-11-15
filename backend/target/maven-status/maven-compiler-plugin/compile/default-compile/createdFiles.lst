@@ -1,0 +1,6 @@
+com/ronin/challenge/service/RoninBattleService.class
+com/ronin/challenge/model/BattleRequest.class
+com/ronin/challenge/dto/BattleCalculation.class
+com/ronin/challenge/ChallengeApplication.class
+com/ronin/challenge/controller/RoninController.class
+com/ronin/challenge/model/BattleResult.class
